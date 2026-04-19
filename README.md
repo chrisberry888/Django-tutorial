@@ -28,5 +28,13 @@ django-admin startpoint mysite djangotutorial
 
 
 
-Part 2:
+Part 2: Set up the database, create my first model, and learn about Django's automatically-generated admin site.
+
+three-step guide to making model changes:
+
+    Change your models (in models.py).
+
+    Run python manage.py makemigrations to create migrations for those changes
+
+    Run python manage.py migrate to apply those changes to the database.
 
