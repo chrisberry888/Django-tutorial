@@ -38,3 +38,13 @@ three-step guide to making model changes:
 
     Run python manage.py migrate to apply those changes to the database.
 
+
+
+Part 3: Focus on creating the public interface - "views".
+
+A view is a "type" of web page in your Django application that generally serves a specific function and has a specific template
+E.g. (for a blog application): homepage view, entry "detail" view, year/month/day-based archive view, etc.
+
+
+Part 4: Focus on form processing and cutting down our code.
+
