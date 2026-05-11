@@ -27,6 +27,10 @@ django-admin startpoint mysite djangotutorial
 /more notes that I'm not taking/
 
 
+python manage.py runserver
+
+http://localhost:8000/polls/
+
 
 Part 2: Set up the database, create my first model, and learn about Django's automatically-generated admin site.
 
@@ -48,3 +52,14 @@ E.g. (for a blog application): homepage view, entry "detail" view, year/month/da
 
 Part 4: Focus on form processing and cutting down our code.
 
+
+Part 5: Creating some automated tests for our web-poll application
+
+The more tests the better. TDD is ideal. 
+
+python manage.py test polls
+
+Best practices:
+- A separate TestClass for each model or view
+- a separate test method for each set of conditions you want to test
+- test method names that describe their function
